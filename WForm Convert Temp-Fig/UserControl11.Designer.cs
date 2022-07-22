@@ -1,0 +1,145 @@
+﻿namespace Degrees
+{
+    partial class UserControl11
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.ResTxt = new System.Windows.Forms.TextBox();
+            this.HeightTxt = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.BaseTxt = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // ResTxt
+            // 
+            this.ResTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResTxt.Location = new System.Drawing.Point(123, 155);
+            this.ResTxt.Name = "ResTxt";
+            this.ResTxt.Size = new System.Drawing.Size(246, 29);
+            this.ResTxt.TabIndex = 23;
+            this.ResTxt.TextChanged += new System.EventHandler(this.ResTxt_TextChanged);
+            // 
+            // HeightTxt
+            // 
+            this.HeightTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HeightTxt.Location = new System.Drawing.Point(123, 14);
+            this.HeightTxt.Name = "HeightTxt";
+            this.HeightTxt.Size = new System.Drawing.Size(246, 29);
+            this.HeightTxt.TabIndex = 22;
+            this.HeightTxt.TextChanged += new System.EventHandler(this.HeightTxt_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label2.Location = new System.Drawing.Point(6, 155);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 29);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Result";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label1.Location = new System.Drawing.Point(6, 14);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 48);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Give the Hieght";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.Location = new System.Drawing.Point(114, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(162, 41);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Show";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BaseTxt
+            // 
+            this.BaseTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BaseTxt.Location = new System.Drawing.Point(123, 81);
+            this.BaseTxt.Name = "BaseTxt";
+            this.BaseTxt.Size = new System.Drawing.Size(246, 29);
+            this.BaseTxt.TabIndex = 25;
+            this.BaseTxt.TextChanged += new System.EventHandler(this.BaseTxt_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label3.Location = new System.Drawing.Point(6, 81);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 48);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Give the Base";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // UserControl11
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Degrees.Properties.Resources.Back2;
+            this.Controls.Add(this.BaseTxt);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.ResTxt);
+            this.Controls.Add(this.HeightTxt);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Name = "UserControl11";
+            this.Size = new System.Drawing.Size(375, 260);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.TextBox ResTxt;
+        private System.Windows.Forms.TextBox HeightTxt;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox BaseTxt;
+        private System.Windows.Forms.Label label3;
+    }
+}
